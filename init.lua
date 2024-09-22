@@ -78,7 +78,7 @@ vim.opt.scrolloff = 10
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 vim.keymap.set('i', 'jk', '<Esc>')
-vim.keymap.set('n', '<Leader>E', function()
+vim.keymap.set('n', '<Leader>e', function()
   vim.cmd 'Explore'
 end)
 
